@@ -1,0 +1,44 @@
+/* Загальний фон */
+body {
+    background: linear-gradient(45deg, #1e3c72, #2a5298); /* Темно-синій градієнт */
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Верхній блок (хедер і футер) */
+.bg-primary-gradient {
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+}
+
+/* Основні блоки */
+.container {
+    color: #333;
+}
+
+/* Кнопки */
+.btn-primary {
+    background-color: #2a5298;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1e3c72;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Тіні та округлення */
+.rounded {
+    border-radius: 8px;
+}
+
+.shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
